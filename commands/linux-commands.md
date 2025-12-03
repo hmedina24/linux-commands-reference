@@ -1,5 +1,79 @@
 ## Commands Glossary
 
+<!-------------Template-------------->
+```bash
+
+```
+**Purpose:**  
+**Why use it:** 
+<!-------------Template-------------->
+
+```bash
+pwd
+```
+**Purpose:**  Shows the current working directory.
+**Why use it:**  To confirm where you are in the file system.
+
+```bash
+ls
+```
+**Purpose:**  Lists files and directories in the current location.
+**Why use it:** To see what exists inside a directory.
+
+```bash
+cd
+```
+**Purpose:**  Changes the current directory.
+**Why use it:** To navigate through folders.
+
+```bash
+mkdir
+```
+**Purpose:**  Creates a new Directory.
+**Why use it:** To organize files or prepare workspace folders. 
+
+```bash
+rm
+```
+**Purpose:**  Removes files or directories.
+**Why use it:** To delete unneeded files.
+
+```bash
+cp
+```
+**Purpose:**  Copies files or directories
+**Why use it:** To duplicate files safely before editing or moving them. 
+
+```bash
+mv
+```
+**Purpose:**  Moves or renames files.
+**Why use it:** To organize files or rename them.
+
+```bash
+cat
+```
+**Purpose:**  Prints file contents to the terminal.
+**Why use it:** To quickly view text files. 
+
+```bash
+sudo
+```
+**Purpose:**  Runs a command with administrator priviledges.
+**Why use it:** Needed for system-level changes
+
+```bash
+apt update 
+```
+**Purpose:**  Updates the package index on Ubuntu/Debian systems.
+**Why use it:** Needed before installing or upgrading packages.
+
+```bash
+apt upgrade
+```
+**Purpose:** Installs the latest versions of all avaialble packages. 
+**Why use it:** To keep your system up to date.
+
 ```bash
 lsmod \| grep kvm
 ```
