@@ -1,88 +1,72 @@
-## Commands Glossary
+## Commands Glossary 
 
 <!-------------Template-------------->
-```bash
-
-```
+bash
+<command>
 **Purpose:**  
-**Why use it:** 
+**Why use it:**  
 <!-------------Template-------------->
 
-```bash
+
+# 📂 Basic Navigation
+
+bash
 pwd
-```
-**Purpose:**  Shows the current working directory.
-**Why use it:**  To confirm where you are in the file system.
+**Purpose:** Shows the current working directory. **Why use it:** To confirm where you are in the file system.
 
-```bash
+bash
 ls
-```
-**Purpose:**  Lists files and directories in the current location.
-**Why use it:** To see what exists inside a directory.
+**Purpose:** Lists files and directories in the current location. **Why use it:** To see what exists inside a directory.
 
-```bash
+bash
 cd
-```
-**Purpose:**  Changes the current directory.
-**Why use it:** To navigate through folders.
+**Purpose:** Changes the current directory. **Why use it:** To navigate through folders.
 
-```bash
+bash
 mkdir
-```
-**Purpose:**  Creates a new Directory.
-**Why use it:** To organize files or prepare workspace folders. 
+**Purpose:** Creates a new directory. **Why use it:** To organize files or prepare workspace folders.
 
-```bash
+bash
 rm
-```
-**Purpose:**  Removes files or directories.
-**Why use it:** To delete unneeded files.
+**Purpose:** Removes files or directories. **Why use it:** To delete unneeded files.
 
-```bash
+
+# 📂 File Operations
+
+bash
 cp
-```
-**Purpose:**  Copies files or directories
-**Why use it:** To duplicate files safely before editing or moving them. 
+**Purpose:** Copies files or directories. **Why use it:** To duplicate files safely before editing or moving them.
 
-```bash
+bash
 mv
-```
-**Purpose:**  Moves or renames files.
-**Why use it:** To organize files or rename them.
+**Purpose:** Moves or renames files. **Why use it:** To organize files or rename them.
 
-```bash
+bash
 cat
-```
-**Purpose:**  Prints file contents to the terminal.
-**Why use it:** To quickly view text files. 
+**Purpose:** Prints file contents to the terminal. **Why use it:** To quickly view text files.
 
-```bash
+
+# 📂 System Management
+
+bash
 sudo
-```
-**Purpose:**  Runs a command with administrator priviledges.
-**Why use it:** Needed for system-level changes
+**Purpose:** Runs a command with administrator privileges. **Why use it:** Needed for system-level changes.
 
-```bash
-apt update 
-```
-**Purpose:**  Updates the package index on Ubuntu/Debian systems.
-**Why use it:** Needed before installing or upgrading packages.
+bash
+apt update
+**Purpose:** Updates the package index on Ubuntu/Debian systems. **Why use it:** Needed before installing or upgrading packages.
 
-```bash
+bash
 apt upgrade
-```
-**Purpose:** Installs the latest versions of all avaialble packages. 
-**Why use it:** To keep your system up to date.
+**Purpose:** Installs the latest versions of all available packages. **Why use it:** To keep your system up to date.
 
-```bash
-lsmod \| grep kvm
-```
-**Purpose:** Shows loaded kernel modules and filters for KVM.  
-**Why use it:** To verify if KVM virtualization modules are active.  
 
-```bash
+# 📂 Virtualization (KVM)
+
+bash
+lsmod | grep kvm
+**Purpose:** Shows loaded kernel modules and filters for KVM. **Why use it:** To verify if KVM virtualization modules are active.
+
+bash
 sudo modprobe -r kvm_intel
-```
-**Purpose:** Removes the kvm_intel module from the kernel.
-**Why use it:**Temporarily disables KVM to troubleshoot VM issues or allow other hypervisors access.
-  
+**Purpose:** Removes the kvm_intel module from the kernel. **Why use it:** Temporarily disables KVM to troubleshoot VM issues or allow other hypervisors access.
